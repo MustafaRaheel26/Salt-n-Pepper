@@ -1,0 +1,1035 @@
+/* color variable */
+
+:root{
+    --red:#f42625;
+    --white:#ffffff;
+    --black:#000000;
+}
+ 
+/* navbar start  */
+
+#navbar{
+    padding: 8px 50px;
+    margin:  0;
+}
+
+#navbar .nav{
+    text-indent: 40px;
+    margin: 10px 10px;
+}
+
+#navbar a img{
+    margin: 0;
+}
+
+#navbar-items .nav-link{
+    text-decoration: none;
+}
+
+
+#franchise{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px 20px;
+    cursor: pointer;
+    margin: 0  20px;
+    font-size: 15px;
+
+}
+
+#order-online{
+    background-color: var(--red);
+    border: 0px;
+    padding: 20px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#order-online  i{
+
+    font-size: 15px;
+    color: var(--red);
+}
+#btn-icon{
+    padding: 5px 7px; 
+}
+
+/* navbar styling ended */
+
+/* brands section styling  */
+
+.brands-section-bold{
+       font-family: 'futurak';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 52px;
+       line-height: 62px;
+       color: var(--white);
+}
+
+#brands-section-text h1{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 10;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+
+#brands-section-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #ffffffb3;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+#order-now{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 16px 20px;
+    cursor: pointer;
+    margin: 20px  20px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+
+}
+#reserve-table{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 16px 20px;
+    cursor: pointer;
+    margin: 20px  20px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.brands-section-img img{
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    background-color: #ffff;
+    padding: 0px 18px;
+    border-radius: 3px;
+    margin: 0 12px;
+}
+ 
+/* brands styling section end  */
+
+
+/* franchises first section start  */
+
+#franchises-first-section{
+    position: relative;
+    background: #ffffff0f;
+    padding: 70px; 
+}
+
+.main-custom-heading {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.franchises-section-bold{
+       font-family: 'futurak';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 55px;
+       line-height: 62px;
+       color: var(--white);
+
+}
+
+#franchises-first-section .main-custom-heading h1{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 10;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 8px;
+    margin-top: 5px;
+    text-indent: 10px;
+
+}
+
+#franchises-first-section .main-custom-heading p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #ffffffb3;
+    margin-bottom: 40px;
+    margin-top: 15px;
+
+}
+
+.s-background-logo {
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+
+.franchise-1sec-text small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.franchise-1sec-text h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.franchise-1sec-text span.franchises-section-bold2 {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.franchise-1sec-text p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+.franchise-1sec-text p a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 15px 0;
+}
+  
+
+
+.franchise-1sec-img1 img {
+       width: 500px;
+       margin-left: 100px;
+
+}
+
+
+#get-direction-button{
+    background-color: #0f0f0f;
+    border: 0.5px solid white;
+    padding: 18px 18px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 18px;
+}
+
+#get-direction-button  i{
+
+    font-size: 15px;
+    color: var(--red);
+}
+#btn-icon2{
+    padding: 5px 7px; 
+    margin-left: 4px;
+}
+
+/* franchises first section end */
+
+
+/* franchises second section start */
+
+
+#franchises-second-section{
+    position: relative;
+    padding: 70px; 
+}
+
+.main-custom-heading2 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.franchises-section2-bold{
+       font-family: 'futurak';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 55px;
+       line-height: 62px;
+       color: var(--white);
+
+}
+
+#franchises-second-section .main-custom-heading2 h1{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 10;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 8px;
+    margin-top: 5px;
+    text-indent: 10px;
+
+}
+
+.p-background-logo {
+    position: absolute;
+    top: 120px;
+}
+
+.franchise-2sec-text small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.franchise-2sec-text h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.franchise-2sec-text span.franchises-section2-bold2 {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.franchise-2sec-text p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+.franchise-2sec-text p a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 15px 0;
+}
+
+.franchise-2sec-img1 img {
+    width: 370px;
+    height: 230px;
+    padding: 10px 11px;
+
+}
+
+/* franchises second section end */
+
+
+/* franchise third section start  */
+
+
+#franchise-third-section{
+    position: relative;
+    background: #ffffff0f;
+    padding: 70px; 
+}
+
+.main-custom-heading3 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.franchises-section-bold{
+       font-family: 'futurak';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 55px;
+       line-height: 62px;
+       color: var(--white);
+
+}
+
+#franchise-third-section .main-custom-heading3 h1{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 10;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 8px;
+    margin-top: 5px;
+    text-indent: 10px;
+
+}
+
+.franchise-3sec-text small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.franchise-3sec-text h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.franchise-3sec-text span.franchise-section3-bold2 {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.franchise-3sec-text p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.franchise-3sec-text p a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 15px 0;
+    margin-top: 25px;
+}
+  
+
+
+.franchise-3sec-img1 img {
+       width: 620px;
+       /* margin-left: 100px; */
+
+}
+
+#get-direction-button2{
+    background-color: #28a745;
+    padding: 18px 18px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 18px;
+    border: none;
+}
+
+#get-direction-button  i{
+
+    font-size: 15px;
+    color: #28a745;
+}
+#btn-icon3{
+    padding: 5px 7px; 
+    margin-left: 4px;
+
+}
+
+#btn-icon3 i{
+    color: #28a745;
+
+}
+
+/* franchise third section end  */
+
+
+/* card section start  */
+
+
+.card-section-heading {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block;
+}
+
+.card-section-bold{
+       font-family: 'futurak';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 55px;
+       line-height: 62px;
+       color: var(--white);
+
+}
+
+.opening-soon-cardsection{
+    font-style: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--white);
+    display: inline-block;
+}
+
+#card-section .card-section-heading h1{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 10;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 8px;
+    margin-top: 5px;
+    text-indent: 10px;
+
+}
+
+.card-section-box1{
+    box-shadow: 1px 2px 2px  #FFFFFF;
+    border-radius: 2px;
+    padding: 12px 65px;
+    margin: 20px 20px;
+    background-color: #FFFFFF;
+}
+
+
+.card-section-locationbox  small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-section-locationbox span{
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--black);
+    text-align: center;
+    margin-top: 4px;
+}
+
+.card-section-locationbox h4{
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: var(--black);
+    margin-top: 4px;
+}
+
+
+.card-section-locationbox p {
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: var(--black);
+    margin-top: 4px;
+}
+
+/* card section end  */
+
+/* social feed section start  */
+
+.social-feed-text h4{
+    font-family: 'futurak';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 10;
+    line-height: 50px;
+    color: var(--white);
+    margin-bottom: 8px;
+    margin-top: 10px;
+    text-indent: 10px;
+
+}
+
+.social-feed-img1 img{
+    width: 240px;
+    height: 240px;
+    margin: 10px 10px;
+}
+
+/* social feed section end  */
+
+
+/* footer section start  */
+
+.footer-container-section1{
+    padding: 0 10px;
+}
+
+.footer-container-section1 p{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+}
+
+.footer-container-section1 ul {
+    text-decoration: none;
+}
+
+.footer-container-section1 a{
+    text-decoration: none;
+}
+
+.footer-container-section1 li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline;
+    padding: 0 5px;
+}
+
+.footer-container-section2{
+    padding: 0 30px;
+}
+
+.footer-container-section2 h4{
+
+font-family: 'Butler';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+color:  var(--white);
+margin: 5px 0;
+}
+
+.footer-container-section2 li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.footer-container-section2 ul {
+    list-style-type: none;
+}
+ 
+.footer-container-section2 a{
+    text-decoration: none;
+}
+ 
+.footer-container-section4min a{
+display: flex;
+align-items: center;
+margin-right: 8px;
+justify-content: center;
+width: 40px;
+height: 40px;
+background: #ED1C24;
+color: #fff;
+border-radius: 50px;
+text-decoration: none;
+margin-bottom: 8px;
+}
+
+.footer-container-section4{
+    padding: 0 30px;
+}
+
+.footer-container-section4 h4{
+font-family: 'Butler';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+color: #FFFFFF;
+margin: 10px 0;
+}
+
+.footer-container-section4 a{
+    padding: 6px 3px;
+}
+  
+.footer2-container-section{
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer2-container-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+
+.footer2-container-section a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+
+
+.footer2-container-section a{
+    text-decoration: none;
+    padding: 10px 50px;
+    margin: 10px 0;
+}
+
+.footer2-container-section p{
+    padding: 10px 50px;
+    margin: 10px 0;
+}
+
+                            /* About Us Page Started  */
+
+     
+        /* introduction section started */
+
+
+.introduction-section-text h4{
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.introduction-section-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+
+}
+
+/* introduction section ended*/
+
+
+/* lahore restaurants section started  */
+
+.lahore-restaurants-section-maintxt h4{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.lahore-restaurants-section-maintxt p{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.7);
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.lahore-restaurants-imgtext h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.lahore-restaurants-imgtext h4 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+    color: var(--white);
+    padding: 5px 10px;
+}
+
+.lahore-restaurants-imgtext p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lahore-restaurants-imgtext{
+    padding: 10px 20px;
+    margin: 10px 50px;
+}
+
+.lahore-restaurants-img1{
+    margin: 30px 30px;
+
+}
+
+.lahore-restaurants-section-maintxt h4 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+    color: var(--white);
+    padding: 5px 10px;
+}
+
+/* lahore restaurants section started  */
+
+/* express franchise card section started  */
+
+.express-franchise-card-maintxt h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.express-franchise-card-maintxt h4 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+    color: var(--white);
+    padding: 5px 10px;
+}
+
+.express-franchise-card-text span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.express-franchise-card-text p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.express-franchise-card-text a{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #ffffffb3;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+#express-franchise-card-section  .express-franchise-card{
+    box-sizing: border-box;
+    box-shadow: 0 0 0 #ffffffb3;
+    border-radius: 8px;
+    margin: 10px 20px ;
+    padding: 10px 10px;
+    margin-top: 30px;
+
+}
+
+.express-franchise-card-img img{
+    border-radius: 8px;
+}
+
+/* express franchise card section ended  */
+
+/* village franchise aboutus section started */
+
+.village-franchise-aboutus-maintxt h4{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.village-franchise-aboutus-maintxt h4 span {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 12px;
+}
+
+.village-aboutus-imgtext small{
+    font-size: 80%;
+    font-weight: 400;
+}
+ 
+.village-aboutus-imgtext h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.village-aboutus-imgtext h4 span {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 31px;
+    color: #FFFFFF;
+     padding-right: 7px;
+}
+
+.village-aboutus-imgtext p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ 
+.village-aboutus-imgtext a{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* village franchise aboutus section ended */
